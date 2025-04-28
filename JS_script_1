@@ -7,7 +7,7 @@ let showText;
 
 
 function getComputerChoice() {
-    computerChoice = parseInt(Math.random() * 10) % 3;
+    computerChoice = Math.floor(Math.random() * (2 - 0 + 1)) + 0;
     console.log("computer Choice = " + computerChoice);
     return computerChoice;
 }
